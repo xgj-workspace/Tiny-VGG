@@ -1,5 +1,5 @@
 
-# TINY-VGG IMAGE CLASSIFICATION PIPELINE (PYTORCH)
+# TINY-VGG IMAGE CLASSIFICATION PIPELINE (PyTorch)
 
 
 A lightweight PyTorch implementation of the TinyVGG Convolutional Neural 
