@@ -77,7 +77,7 @@ Option 1: Train on CIFAR-10 (Default)
 No local images required. PyTorch will automatically download CIFAR-10 into a 
 'data/' directory:
 
-  python tiny_VGG.py --epochs 30 --batch-size 16 --lr 0.001
+  python tiny_VGG.py  
 
 
 Option 2: Train on a Custom Dataset
@@ -85,7 +85,7 @@ Option 2: Train on a Custom Dataset
 Structure your dataset into 'dataset/train/<class_name>/' and 
 'dataset/val/<class_name>/', then pass the '--custom-dataset' flag:
 
-  python tiny_VGG.py --custom-dataset --epochs 30 --batch-size 16
+  python tiny_VGG.py --custom-dataset  
 
 
 
