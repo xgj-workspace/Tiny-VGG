@@ -1,5 +1,5 @@
 
-# TINYVGG IMAGE CLASSIFICATION PIPELINE (PYTORCH)
+# TINY-VGG IMAGE CLASSIFICATION PIPELINE (PYTORCH)
 
 
 A lightweight PyTorch implementation of the TinyVGG Convolutional Neural 
@@ -10,8 +10,8 @@ BatchNorm2d, Dropout, dynamic learning rate decay (ReduceLROnPlateau), and
 an Early Stopping mechanism for superior training stability and validation 
 performance.
 
-It is beginner-friendly and serves as an ideal starting point 
-for learning machine learning and Convolutional Neural Networks (CNNs).
+It is for machine learning beginer and serves as a starting point 
+for Convolutional Neural Networks (CNNs).
 
 The pipeline offers out-of-the-box hardware acceleration for Apple Silicon 
 GPUs (MPS), NVIDIA GPUs (CUDA), and CPU fallbacks.
@@ -54,22 +54,22 @@ GPUs (MPS), NVIDIA GPUs (CUDA), and CPU fallbacks.
         ├── class_a/
         └── class_b/
 
-···
+```
 
 ---
 ## 3. PREREQUISITES & INSTALLATION
-···
+```
 
 Ensure you have Python 3.8 or higher installed along with PyTorch, 
 Torchvision, and Pillow:
 
   pip install torch torchvision pillow
 
-···
+```
 ---
 ## 4. USAGE GUIDE
 
-···
+```
 [A] TRAINING (tiny_VGG.py)
 
 Option 1: Train on CIFAR-10 (Default)
@@ -128,10 +128,10 @@ Sample Terminal Output:
   • truck       :   2.3% | 
 =======================================================
 
-···
+```
 ---
 ## 5. MODEL ARCHITECTURE SUMMARY 
-···
+```
 Input Tensor (3 x 64 x 64)
   │
   ├── [Conv2d(3 -> 16, k=3, p=1)  -> BatchNorm2d -> ReLU]
@@ -146,7 +146,7 @@ Input Tensor (3 x 64 x 64)
   ├── Dropout(p=0.5)
   └── Linear(in_features=4096, out_features=num_classes)
 
-··· 
+``` 
 ---
 ## 6. LICENSE 
 
