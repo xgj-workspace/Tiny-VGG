@@ -1,0 +1,37 @@
+# Python 编译与运行缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch 训练生成的模型权重文件
+*.pth
+*.pt
+*.onnx
+
+# 训练/验证过程中产生的数据集与目录
+data/
+dataset/
+
+#测试的图片
+*.png
+*.jpg
+*.jpeg
+
+# Mac 系统生成的隐形文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE 与编辑器配置文件 (VS Code / PyCharm / Xcode)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 虚拟环境目录 (如果是本地创建了 venv 或 conda)
+venv/
+env/
+.venv/
+
+# 日志文件
+*.log
